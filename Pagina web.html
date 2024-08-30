@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Master of Hair</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .jumbotron {
+            
+            background-size: cover;
+            color: #000000;
+           
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .jumbotron h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .service-icon {
+            font-size: 2rem;
+            color: #ff5722;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Barbería Master of Hair</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        
+        <div class="container">
+            <h1 class="display-4">Bienvenido a Barbería Master of Hair <Estilo Urbano></h1>
+            <p class="lead">Donde el estilo y la precisión se encuentran</p>
+            <img src="pagina/Red and Black Illustrative Barber Shop Logo.png" height="700">
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 text-center">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <p class="lead">Ofrecemos una variedad de servicios para que siempre te veas y sientas mejor.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Corte de Cabello</h3>
+                    <p>Los mejores cortes modernos y clásicos.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-icon">
+                        <i class="fas fa-beard"></i>
+                    </div>
+                    <h3>Afeitado</h3>
+                    <p>Afeitado tradicional con navaja.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Estilizado</h3>
+                    <p>Productos de alta calidad para el cuidado del cabello.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Galería</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="pagina/tpbsm-homepage.jpeg" class="img-fluid" alt="Galería 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="pagina/e690e6839da8af63dce588206357eb95.jpg" class="img-fluid" alt="Galería 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="pagina/DSC8408-1030x687.jpg" class="img-fluid" alt="Galería 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 text-center bg-light">
+        <div class="container">
+            <h2>Testimonios</h2>
+            <p class="lead">Lo que nuestros clientes dicen sobre nosotros</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"El mejor corte que he tenido en mi vida, volveré seguro."</p>
+                        <footer class="blockquote-footer">Juan Pérez</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Un servicio de calidad con un ambiente muy acogedor."</p>
+                        <footer class="blockquote-footer">Carlos López</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Recomendado al 100%, atención excelente."</p>
+                        <footer class="blockquote-footer">María Gómez</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p class="lead">Visítanos o comunícate con nosotros para agendar tu cita.</p>
+            <p><strong>Teléfono:</strong> +504 1234-5678</p>
+            <p><strong>Email:</strong> info@BarberíaMasterofHair.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Barbería Master of Hair Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
